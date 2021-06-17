@@ -17,7 +17,11 @@ for key, value in myVehicle.items():
 myInventoryList = []
 
 ### read csv file in memory
+<<<<<<< HEAD
 with open('car_fleet.csv') as csvFile:  
+=======
+with open('carFleet.csv') as csvFile:  
+>>>>>>> fcbfa690f9242776556692680e5b494b18150548
   csvReader = csv.reader(csvFile, delimiter=',')  
   lineCount = 0  
   for row in csvReader:  
@@ -40,6 +44,10 @@ with open('car_fleet.csv') as csvFile:
   print(f'Processed {lineCount} lines.')  
     
 for mycarProperties in myInventoryList:
+<<<<<<< HEAD
     for key, values in mycarProperties.items():
+=======
+    for key, values in myCarProperties.items():
+>>>>>>> fcbfa690f9242776556692680e5b494b18150548
         print("{} : {}".format(key, value))
         print("-----")
