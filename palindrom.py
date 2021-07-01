@@ -1,5 +1,5 @@
 #palindrom
-
+#palendrom
 word=input("insert word ")
 palindrom=True
 print(word)
